@@ -1,4 +1,4 @@
-#LEH Python 3 syntax
+#Python 3 syntax
 a = 5
 b = 3
 c = a + b
