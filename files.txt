@@ -1,0 +1,16 @@
+  GNU nano 5.3                                                 files.py *                                                        
+
+
+import os # so we can use files
+#open file we can write to 
+file_object = open("test.txt" , "w")
+
+#write to file 
+file_object.write("password: 123456789")
+
+file = open("test.txt" , "r")
+file = open("test.txt" , "w") # file will now not be able to read from but can write and vise versa
+
+file = open("test.txt" , "a+") #allows us to append to file while write overwrites the file
+
+
